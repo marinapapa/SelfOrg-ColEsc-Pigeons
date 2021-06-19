@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Data related files (often large size)
+/Data/**/*.RData
+/Data/**/*.rda
+/Data/**/*.csv
+/Data/**/*.json
