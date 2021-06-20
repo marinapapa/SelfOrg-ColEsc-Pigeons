@@ -1,6 +1,6 @@
 # Self-Organized Collective Escape of Pigeons
 
-This repository contains code and data used in the project on the distance-dependent pattern of collective escape in flocks of pigeons, currently submitted for peer review:
+This repository contains code and data used in the project on a distance-dependent pattern of collective escape in flocks of pigeons:
 
 *Papadopoulou, M., Hildenbrandt H., Sankey, D.W.E., Portugal S.J.,and Hemelrijk, C.K. "Self-organization of collective escape in pigeon flocks". Submitted.*
 
@@ -17,7 +17,7 @@ The analysis on empirical and simulated data is performed in _R_, version 3.6 or
 
 ## Data
 
-You can download all data from this Zenodo repository:
+You can download all data from this Zenodo repository: **TBA**
  
 To smoothly run the code files, the subdirectories of the downloaded data should be copied locally in this *Data* folder. The dataset includes:
 
