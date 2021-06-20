@@ -1,4 +1,5 @@
-
+# Helper plotting function to measure the frequency of 
+# change in the escape direction of flock members during a simulation
 switch_esc_dir <- function(data)
 {
   dfall <- lapply(data, 

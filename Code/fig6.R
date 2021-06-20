@@ -3,10 +3,9 @@
 source('subplots_functions.R')
 source('load_data.R')
 library(ggtext)
-
 # extrafont::loadfonts(device = "win")
 
-eg_sim <- FlockAnalyzeR::import_base_data('../Data/simulated_raw/HoPE_track_eg/', 
+eg_sim <- import_base_data('../Data/simulated_raw/HoPE_track_eg/', 
                                            data_type = 'sim',
                                            types = c('self', 'forces'))
 
@@ -143,8 +142,6 @@ mainwithleg <- cowplot::ggdraw(main_track) + cowplot::draw_plot(fake_legend, x =
 ## ---------------------------------------------------------
 ## SIDE PLOTS
 
-#library(rlang)
-
 p1 <- minip(ss1, scale_dir = 3) + 
   ggplot2::xlim(c(385,405)) + ggplot2::scale_y_reverse(limits = c(360,345)) + ggplot2::coord_equal() +
   ggplot2::annotate(geom = 'richtext', y = 347, x = 404, label = "1", size = 5, color = 'black', fontface =2,  fill = NA, label.color = NA, family = 'Palatino Linotype' ) +
@@ -208,7 +205,7 @@ all_dists_confl <- list(ss1[ss1$conflict == 1,], ss2[ss2$conflict == 1,],
                         ss3[ss3$conflict == 1,], ss4[ss4$conflict == 1,],
                         ss5[ss5$conflict == 1,], ss6[ss6$conflict == 1,])
 avdirs <- lapply(all_dists, function(x) return(c(mean(x$dirx), mean(x$diry))))
-rotangl <- lapply(avdirs, function(x) FlockAnalyzeR::rad_between(x, c(0,1)))
+rotangl <- lapply(avdirs, function(x) rad_between(x, c(0,1)))
 
 fps <- list()
 k <- 1

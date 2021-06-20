@@ -1,3 +1,4 @@
+# Helper functions for the analysis on turning direction frequency 
 
 data_for_turn_dir <- function(df_decout, condition)
 {

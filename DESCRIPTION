@@ -11,14 +11,19 @@ Encoding: UTF-8
 Imports:
     data.table,
     plyr,
+    dplyr,
+    reshape2,
+    grid,
+    gridExtra,
     wesanderson,
-    ggnewscale,
     useful,
     ggplot2,
+    ggtext,
+    ggsignif,
+    ggnewscale,
     cowplot,
     pracma,
-    MASS,
-    ggsignif
+    MASS
 Suggests:
     extrafont,
     ragg

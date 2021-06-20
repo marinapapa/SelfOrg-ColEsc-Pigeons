@@ -1,6 +1,7 @@
 ## Figure 3. Comparison of real and simulated flocks of pigeons.
 
-## Model performance
+source('neighb_rel_pos.R')
+source('subplots_functions.R')
 
 # Load simulated data
 transf_data_dir <- '../Data/simulated/'
@@ -157,7 +158,7 @@ rel_emp <- ggplot2::ggplot(emp_nn,
 legen <- cowplot::get_legend(rel_emp)
 rel_emp <- rel_emp + ggplot2::theme(legend.position="none")
 
-simd$sp_struct <- FlockAnalyzeR::neighb_relative_positions(simd$neighb)
+simd$sp_struct <- neighb_relative_positions(simd$neighb)
 sim_nn <- simd$sp_struct[simd$sp_struct$neighb == 1, ]
 rel_sim <- ggplot2::ggplot(sim_nn,
                            ggplot2::aes(x = x, y = y)) +

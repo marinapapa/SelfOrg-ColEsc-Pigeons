@@ -91,8 +91,6 @@ angl_noesc <- ggplot2::ggplot(one_noesc, ggplot2::aes(x = dist_group , y = abs(p
                  axis.title.y = ggplot2::element_text(size = 24, face = 'bold'),
                  plot.title = ggplot2::element_text(size = 24, face = "bold", hjust = 0.5))
 
-library(dplyr)
-
 ## C. Escape direction concesus 
 
 esc_dir <- one_esc %>% group_by(dist_group, time) %>%

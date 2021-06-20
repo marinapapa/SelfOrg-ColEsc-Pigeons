@@ -161,3 +161,9 @@ pointRelPos <- function(dist, angl){
   return(c(dist * sin(angl), dist * cos(angl)))
 }
 
+rad_between <- function(a, b)
+{
+  c <- a[1] * b[2] - a[2] * b[1] # perpDot;
+  d <- pracma::dot(a,b);
+  return(atan2(c,d));
+}

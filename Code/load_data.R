@@ -1,3 +1,5 @@
+# Helper function that loads the simulated csv data into a list of dataframes 
+
 import_base_data <- function(folder_path, data_type = 'sim', types = c('self', 'neighb', 'flocks'))
 {
   out <- list()
