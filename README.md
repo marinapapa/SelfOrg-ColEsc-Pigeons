@@ -17,7 +17,7 @@ The analysis on empirical and simulated data is performed in _R_, version 3.6 or
 
 ## Data
 
-You can download all data from this Zenodo repository: **TBA**
+You can download all data from this Zenodo repository: https://zenodo.org/record/4993109
  
 To smoothly run the code files, the subdirectories of the downloaded data should be copied locally in this *Data* folder. The dataset includes:
 
@@ -33,7 +33,7 @@ The files/folders necessary for the code to run are:
 2. **transformed** folder in the *empirical* folder: contains the empirical data of Sankey *et al.* (2021) restructured according to the output of the computational model
 3. **HoPE_track_eg** folder in the *simulated_raw* folder: an example output folder that is also used in Figure 6. The repository contains also all the raw output of all our experiments.
 4. **turning_direction** in the *simulated* folder: the results of the turning direction frequency analysis on the simulated data
-5. & 6. **sim_datas_chase.RData** and **sim_datas_noavoid.RData** in the *simulated* folder: the imported data from our main simulations (the supplementary simulations are also included in this folder).
+5. & 6. **sim_datas_chase.RData** and **sim_datas_noavoid.RData** in the *simulated* folder: the imported data from our main simulations.
 
 ## Results
 Folder in which *figX.R* scripts export the figures.  
