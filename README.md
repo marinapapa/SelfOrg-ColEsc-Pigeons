@@ -2,7 +2,7 @@
 
 This repository contains code and data used in the project on a distance-dependent pattern of collective escape in flocks of pigeons:
 
-*Papadopoulou, M., Hildenbrandt H., Sankey, D.W.E., Portugal S.J.,and Hemelrijk, C.K. "Self-organization of collective escape in pigeon flocks". Submitted.*
+*Papadopoulou M, Hildenbrandt H, Sankey DWE, Portugal SJ, Hemelrijk CK (2022) Selforganization of collective escape in pigeon flocks. PLoS Comput Biol 18(1): e1009772. https://doi.org/10.1371/journal.pcbi.1009772*
 
 The code provided is open source, but we ask you to cite the above paper if you make use of it. 
 
