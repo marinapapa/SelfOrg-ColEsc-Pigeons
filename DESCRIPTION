@@ -1,7 +1,7 @@
 Project: Self Organized Collective Escape of Pigeons
 Type: Project
 Title: Analysis of empirical and simulated data of flocks of pigeons
-Version: 0.1.0
+Version: 0.2.0
 Author: person("Marina", "Papadopoulou", email = "marina.vp@outlook.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6478-8365")),
 Maintainer: Marina Papadopoulou <marina.vp@outlook.com>
 Description:  Analysis and data for project: "Self-organization of collective escape in pigeon flocks"
@@ -23,7 +23,8 @@ Imports:
     ggnewscale,
     cowplot,
     pracma,
-    MASS
+    MASS,
+    rjson
 Suggests:
     extrafont,
     ragg
